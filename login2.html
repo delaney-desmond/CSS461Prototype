@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html Long="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Treehouse Login Page</title>
+</head>
+
+<body>
+	<nav style="background:#3A4187;">
+		<div class="logo">
+			<a href="index.html"><img src="logo.png" alt="treehouse logo" height="40" width="35" align="left"/></a>
+		</div>
+		<div class="title">
+			<h4>treehouse Care Package System</h4>
+		</div>
+		<ul class="nav-links">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="login.html">Login</a>
+			</li>
+			<li>
+				<a href="create.html">Help</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="real-body">
+		<br/><h1 align="center">Volunteer Login to Treehouse's Care Package System</h1>	
+	</div>
+	<form name="login2">
+	<div class="login2">
+		<input type="text" placeholder="Identification String" name="userid"><br/>
+		<input type="password" placeholder="Password" name="pswrd"><br/>
+		<input type="button" onclick="check(this.form)" value="Login"/>
+	</div>
+	<div class="login-body">
+		<p>Don't have an Identification String? Click <a href="create.html">Here</a>
+		</p>
+		<br/><p>Looking for the DSHS Employee login portal? Click <a href="login.html">Here</a></p>
+	</div>
+
+</form>
+<script language="javascript">
+	function check(form){
+		if(form.userid.value == "123456ABC" && form.pswrd.value == "CSS461Prototype"){
+			window.open('orders.html');
+		}else{
+			alert("Incorrect Credentials")
+		}
+	}
+</script>
+</body>
+
+</html>
