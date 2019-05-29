@@ -45,6 +45,15 @@ nav{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
+	
+}
+
+.nav-links a:hover{
+	opacity: 0.8;
+}
+
+.nav-links a:active{
+	opacity: 0.6;
 }
 
 .nav-links li{
@@ -232,4 +241,5 @@ nav{
 	top: 57%;
 	width: 530px;
 	padding: 10px;
+	font-family: 'Hind', sans-serif;
 }
