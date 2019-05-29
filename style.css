@@ -1,0 +1,159 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+nav{
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #196414;
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	padding: 0px;
+	color: white;
+	text-transform: lowercase;
+	letter-spacing: 3px;
+	font-size: 28px;
+	white-space: nowrap;
+	display: inline-flex;
+	text-align: left;
+	float: left;
+}
+
+.logo{
+
+	padding-right: 5px;
+	justify-content: space-around;
+	float: left;
+}
+
+.nav-links{
+	padding: 0px;
+	display: flex;
+	width: 30%;
+	justify-content: space-around;
+}
+
+.nav-links a{
+	padding: 0px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.nav-links li{
+	list-style: none;
+}
+
+.real-body{
+	padding: 30px;
+	font-family: 'Hind', sans-serif; 
+    overflow-y: scroll;
+	width: auto;
+	height: auto;
+	-webkit-filter: blur(0px);
+	align-content: center;
+	text-align: left;
+
+
+}
+
+.login{
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	left: 32.5%;
+	top: 25%;
+	width: 530px;
+	padding: 10px;
+	background-color: #196414;
+}
+
+.login input[type=text]{
+	width: 500px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=password] {
+	width: 500px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 500px;
+	height: 70px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px; 
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;	
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+.login-body{
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	left: 32.5%;
+	top: 57%;
+	width: 530px;
+	padding: 10px;
+}
