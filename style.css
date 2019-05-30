@@ -93,6 +93,62 @@ nav{
 	background-color: #196414;
 }
 
+.order{
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	left: 32%;
+	top: 25%;
+	width: 530px;
+	padding: 10px;
+	background-color: #4B7B4B;
+	font-family: 'Hind', sans-serif; 
+	overflow: scroll;
+	height: 1000px;
+}
+
+.order input[type=text]{
+	width: 500px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.order input[type=button]{
+	width: 500px;
+	height: 70px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px; 
+}
+
+.order input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.order input[type=button]:active{
+	opacity: 0.6;
+}
+
+.order input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
 .login2{
 	position: absolute;
 	text-align: center;
@@ -253,16 +309,25 @@ nav{
 	font-family: 'Hind', sans-serif;
 }
 
-footer{
+#page-container{
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap{
+	padding-bottom: 2.5rem;
+}
+
+#footer{
 	padding: 0px;
 	text-align: center;
 	font-size: 15px;
 	color: white;
 	align-items: center;
-	min-height: 8vh;
 	background-color: #196414;
 	font-family: 'Hind', sans-serif; 
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	bottom: 0%;
+	height:5rem;
 }
