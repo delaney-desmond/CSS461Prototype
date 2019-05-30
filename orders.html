@@ -44,16 +44,34 @@
 			<input type="text" placeholder="Foster Parent's Last Name" name="last_name" maxlength="50" size="30">
 			<input type="text" placeholder="Foster Placement Address" name="last_name" maxlength="50" size="30">
 			
-			<br/> <h2>Type of Care Package</h2>
+			<br/> <br/><h2>Type of Care Package</h2>
 			<input type="radio" name="Feminine"> Feminine
 			<input type="radio" name="Masculine"> Masculine
 			<input type="radio" name="Unisex"> Unisex
-			<br/> <h2>Age of Recipient </h2>
-			<input type="radio" name="Newborn"> Newborn
-			<input type="radio" name="0 - 6 months"> 0 - 6 Months
-			<input type="radio" name="6 - 9 months"> 6 - 9 Months
+			<br/> <br/><h2>Age of Recipient </h2>
+			
+			<select>
+				<option value="Newborn">Newborn</option>
+				<option value="3 - 6 months">3 - 6 months</option>
+				<option value="6 - 9 months">6 - 9 months</option>
+				<option value="9 - 12 months">9 - 12 months</option>
+				<option value="Toddler">Toddler</option>
+				<option value="Child Size Small">Child Size Small</option>
+				<option value="Child Size Medium">Child Size Medium</option>
+				<option value="Child Size Large">Child Size Large</option>
+				<option value="Child Size XL">Child Size XL</option>
+				<option value="Teen Size Small">Teen Size Small</option>
+				<option value="Teen Size Medium">Teen Size Medium</option>
+				<option value="Teen Size Large">Teen Size Large</option>
+				<option value="Teen Size XL">Teen Size XL</option>
+				<option value="Adult Size Small">Adult Size Small</option>
+				<option value="Adult Size Medium">Adult Size Medium</option>
+				<option value="Adult Size Large">Adult Size Large</option>
+				<option value="Adult Size XL">Adult Size XL</option>
 
-			<br/><input type="button" onclick="check(this.form)" value="Confirm Order"/>
+			</select>
+
+			<br/> <br/><input type="button" onclick="check(this.form)" value="Confirm Order"/>
 
 
 		</form>
