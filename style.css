@@ -252,3 +252,17 @@ nav{
 	padding: 10px;
 	font-family: 'Hind', sans-serif;
 }
+
+footer{
+	padding: 0px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #196414;
+	font-family: 'Hind', sans-serif; 
+	position: absolute;
+	width: 100%;
+	bottom: 0%;
+}
