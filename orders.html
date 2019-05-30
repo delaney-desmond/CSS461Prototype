@@ -11,6 +11,8 @@
 </head>
 
 <body>
+	<div id="page-container">
+	<div id="content-wrap">
 	<nav>
 		<div class="logo">
 			<a href="index.html"><img src="logo.png" alt="treehouse logo" height="40" width="40" align="left"/></a>
@@ -33,13 +35,36 @@
 	<div class="real-body">
 		<br/><h1 align="center">Make an Order</h1>
 	</div>
-	<form name="order">
 	<div class="order">
-		
+		<form name="order">
+
+			<input type="text" placeholder="Child's First Name" name="first_name" maxlength="50" size="30">
+			<input type="text" placeholder="Child's Last Name" name="last_name" maxlength="50" size="30">
+			<input type="text" placeholder="Foster Parent's First Name" name="last_name" maxlength="50" size="30">
+			<input type="text" placeholder="Foster Parent's Last Name" name="last_name" maxlength="50" size="30">
+			<input type="text" placeholder="Foster Placement Address" name="last_name" maxlength="50" size="30">
+			
+			<br/> <h2>Type of Care Package</h2>
+			<input type="radio" name="Feminine"> Feminine
+			<input type="radio" name="Masculine"> Masculine
+			<input type="radio" name="Unisex"> Unisex
+			<br/> <h2>Age of Recipient </h2>
+			<input type="radio" name="Newborn"> Newborn
+			<input type="radio" name="0 - 6 months"> 0 - 6 Months
+			<input type="radio" name="6 - 9 months"> 6 - 9 Months
+
+			<br/><input type="button" onclick="check(this.form)" value="Confirm Order"/>
+
+
+		</form>
 	</div>
 </form>
-</body>
-<footer>
+<br/><br/><br/><br/>
+</div>
+<footer id="footer">
 	<br/><p>This website is not associated with Treehouse or DSHS.</p><br/>
 </footer>
+</div>
+</body>
+
 </html>
