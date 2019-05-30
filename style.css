@@ -13,6 +13,10 @@ nav{
 	font-family: 'Hind', sans-serif;
 }
 
+body{
+	background-color: #C8E5C8;
+}
+
 .title{
 	padding: 0px;
 	color: white;
@@ -75,11 +79,11 @@ nav{
 
 .goal{
 	padding: 15px;
-	background-color: #DBE8DB;
+	background-color: white;
 	padding-bottom: 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	border: 1px solid #82A182;
+	border: 3px solid #82A182;
 }
 
 .login{
@@ -99,22 +103,28 @@ nav{
 	align-content: center;
 	left: 32%;
 	top: 25%;
-	width: 530px;
-	padding: 10px;
-	background-color: #4B7B4B;
+	width: 40%;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
 	font-family: 'Hind', sans-serif; 
 	overflow: scroll;
 	height: 1000px;
-	color: white;
+	color: #196414;
+	overflow: hidden;
+	border: 2px solid #196414;
+	border-radius: 2px;
 }
 
 .order input[type=text]{
 	width: 500px;
 	height: 60px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
+	background: #196414;
+	opacity: 0.6;
+	border: 2px solid #196414;
 	border-radius: 2px;
-	color: white;
+	color: #196414;
 	font-family: 'Hind', sans-serif;
 	font-size: 25px;
 	font-weight: 400;
@@ -125,11 +135,11 @@ nav{
 .order input[type=button]{
 	width: 500px;
 	height: 70px;
-	background: #fff;
-	border: 1px solid #fff;
+	background: #196414;
+	border: 2px solid #196414;
 	cursor: pointer;
 	border-radius: 2px;
-	color: #a18d6c;
+	color: #fff;
 	font-family: 'Exo', sans-serif;
 	font-size: 25px;
 	font-weight: 400;
@@ -339,7 +349,7 @@ select{
 	background: #DBE8DB;
 	border: 1px solid #fff;
 	border-radius: 2px;
-	color: black;
+	color: #196414;
 	font-family: 'Hind', sans-serif;
 	font-size: 25px;
 	font-weight: 400;
