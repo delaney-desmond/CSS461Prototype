@@ -340,7 +340,7 @@ body{
 	position: fixed;
 	width: 100%;
 	bottom: 0%;
-	height:5rem;
+	height: 5rem;
 }
 
 select{
@@ -355,4 +355,58 @@ select{
 	font-weight: 400;
 	padding: 6px;
 	margin-top: 10px; 
+}
+
+.order-tables{
+	font-size: 20px;
+	text-align: center;
+	align-content: center;
+	left: 32%;
+	font-family: 'Hind', sans-serif; 
+	overflow: scroll;
+	color: #196414;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.order-tables input[type=button]{
+	width: 500px;
+	height: 70px;
+	background: #196414;
+	border: 2px solid #196414;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;  
+}
+
+.login2 input[type=button]:hover{
+	opacity: 0.8;	
+}
+
+.login2 input[type=button]:active{
+	opacity: 0.6;
+}
+
+table{
+	border: 2px solid #196414;
+}
+
+th{
+	padding: 15px;
+	
+	text-align: center;
+	text-decoration-color: #196414;
+}
+
+td{
+	padding: 15px;
+	background-color: white;
+	text-align: center;
+	text-decoration-color: #196414;
+	width: 350px;
 }
