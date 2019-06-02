@@ -384,11 +384,11 @@ select{
 	margin-top: 10px;  
 }
 
-.login2 input[type=button]:hover{
+.order-tables input[type=button]:hover{
 	opacity: 0.8;	
 }
 
-.login2 input[type=button]:active{
+.order-tables input[type=button]:active{
 	opacity: 0.6;
 }
 
